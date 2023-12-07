@@ -1,0 +1,8 @@
+	start server
+
+python app.py
+
+
+	port forwarding
+
+socat TCP-LISTEN:80,fork TCP:127.0.0.1:5000
