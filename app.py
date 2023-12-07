@@ -37,11 +37,7 @@ def index():
                     'poc': True
                 })
             else:
-                result.append({
-                    'cve_id': cve_id,
-                    'url': url,
-                    'poc': False
-                })
+                pass
 
         return render_template('result.html', result=result)
 
